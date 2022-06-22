@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  min-height: 100vh;
+
+  display: grid;
+  grid-template-areas: "header main";
+  grid-template-rows: 20fr;
+}
+
+header {
+  background-color: #d61e0a;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-top: 20px;
+  grid-area: header;
+  margin-right: 1200px;
+}
+nav {
+  grid-area: nav;
+}
+main {
+  transform: translate();
+  display: inline-block;
+  color: black;
+  border-radius: 10px;
+  margin-left: -1230px;
+  margin-right: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: #f1f1fb;
+  grid-area: main;
+}
+
+.move {
+  background-color: #f1f1fb;
+  display: inline-block;
+  padding: 1rem;
+  margin-left: 150px;
+  margin-top: -170px;
+}
+
+.hello {
+  margin: 15px;
+  align-items: flex-start;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  border-radius: 10px;
+}
+
+footer ul {
+  padding: 0.5rem;
+  margin-left: 1000px;
+  margin-top: -4000px;
+  border-radius: 10px;
+  background-color: #d61e0a;
+  border: solid black 1px;
+  display: inline-block;
+  list-style-type: none;
+}
+
+footer li {
+  padding: 0.5rem;
+}
+
+main i {
+  padding: 0.5rem;
+}
+main a {
+  margin-left: 5px;
+  color: #d61e0a;
+}
+
+.world {
+  margin-left: 10px;
+}
+.decagon {
+  margin-left: 150px;
+}
+
+h1 {
+  margin-top: 40px;
+}
+
+h2 {
+  font-size: 14px;
+}
+
+.top {
+  padding: 00.5rem;
+  margin-top: 30px;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0 5px;
+  margin-top: 40px;
+  margin-left: -20px;
+}
+
+th {
+  font-weight: 100;
+}
+
+th,
+td {
+  width: 150px;
+  text-align: center;
+  padding: 5px;
+}
+
+.decagon {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.boys {
+  padding: 0.2rem;
+  border: solid 1px black;
+  margin-left: 200px;
+}
+
+.new {
+  margin-left: 180px;
+}
+
+#download {
+  padding: 0.5;
+  border: solid 1px black;
+}
